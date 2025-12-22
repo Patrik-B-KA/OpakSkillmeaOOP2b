@@ -23,6 +23,13 @@ public class Main {
         System.out.println(cenaDomuBotlovcov + cenaDomuHerkovcov);
 
 
+        Obchod kaufland = new Obchod(2800f, 4, 25);
+        Obchod tesco = new Obchod(3800f, 3, 20);
+        Obchod billa = new Obchod(1400f, 1, 10);
+
+        float cenaKauflandu = kaufland.vypocetCenyDomu(2, "Kaufland");
+        System.out.println(cenaKauflandu);
+
 
 
     }

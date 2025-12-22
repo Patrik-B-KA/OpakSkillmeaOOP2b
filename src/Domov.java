@@ -1,10 +1,7 @@
+public class Domov extends Stavba{
 
-public class Domov {
-
-    private float rozloha;
     private int pocetOkien;
     private String material;
-    private int pocetPoschodi;
     private boolean maAlarm;
 
 
@@ -46,13 +43,6 @@ public class Domov {
         this.pocetOkien = pocetOkien;
         this.pocetPoschodi = pocetPoschodi;
 
-    }
-
-    //Toto je metoda
-    public float vypocetCenyDomu(int lukrativnaObolast, String menoRodiny){
-        System.out.println(menoRodiny);
-        float vypocet = lukrativnaObolast* (pocetOkien*800 + rozloha*840);
-        return vypocet;
     }
 
 
