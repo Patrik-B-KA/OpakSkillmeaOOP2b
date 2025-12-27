@@ -35,6 +35,9 @@ public class Main {
         Pes dunco = new Pes("CV", 45.5,true, 12);
         dunco.vydajZvuk();
 
+        Macka muro = new Macka("siamska", 7.7, true, 13);
+
+
 
     }
 }
