@@ -32,11 +32,11 @@ public class Main {
         System.out.println(cenaKauflandu);*/
 
 
-        Pes dunco = new Pes("CV", 45.5f,true, 12);
+        /*Pes dunco = new Pes("CV", 45.5f,true, 12);
         dunco.vydajZvuk();
 
         Macka muro = new Macka("siamska", 7.7f, true, 13);
-        muro.vydajZvuk();
+        muro.vydajZvuk();*/
 
 
 
