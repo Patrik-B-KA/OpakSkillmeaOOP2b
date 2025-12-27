@@ -32,6 +32,9 @@ public class Main {
         System.out.println(cenaKauflandu);*/
 
 
+        Pes dunco = new Pes("CV", 45.5,true, 12);
+        dunco.vydajZvuk();
+
 
     }
 }

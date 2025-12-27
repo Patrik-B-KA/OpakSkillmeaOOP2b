@@ -14,5 +14,9 @@ public class Pes {
 
     }
 
+    public void vydajZvuk(){
+        System.out.println("Haf, haf, haf");
+    }
+
 
 }
