@@ -13,4 +13,14 @@ public class Banka {
 
     }
 
+    public float vypocetSporiacehoUctu(){
+        konecnyZostatok = pociatocnyVklad;
+
+        for(int i = 0; i < roky; i++){
+            konecnyZostatok += konecnyZostatok * (urokovaSadzba/100) - poplatky;
+        }
+        return konecnyZostatok;
+
+    }
+
 }

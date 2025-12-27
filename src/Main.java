@@ -38,6 +38,10 @@ public class Main {
         Macka muro = new Macka("siamska", 7.7f, true, 13);
         muro.vydajZvuk();*/
 
+        Banka slsp = new Banka(10, 1000,1.0f, 0);
+        float konecnyZostatok = slsp.vypocetSporiacehoUctu();
+        System.out.println(konecnyZostatok);
+
 
 
 
